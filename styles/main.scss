@@ -166,6 +166,7 @@ body {
 
 		@media (max-width: 992px) {
 			background-size: 48%;
+			padding: 80px 16px 100px;
 		}
 
 		.hero-content {
@@ -292,6 +293,7 @@ body {
 		&-item {
 			justify-content: space-around;
 			margin-bottom: 250px;
+			gap: 30px;
 
 			&:last-child {
 				margin-bottom: 0;
@@ -305,18 +307,12 @@ body {
 				width: 50%;
 				height: auto;
 			}
-
-			@media (max-width: 1200px) {
-				img {
-					width: 40%;
-				}
-			}
 		}
 	}
 }
 
 .benefits-txt {
-	max-width: 493px;
+	max-width: 39.5%;
 
 	&-head {
 		font-weight: 600;
@@ -327,12 +323,22 @@ body {
 		@media (max-width: 1200px) {
 			font-size: 45px;
 		}
+
+		@media (max-width: 992px) {
+			font-size: 29px;
+			line-height: 45px;
+		}
 	}
 
 	&-parag {
 		font-size: 20px;
 		line-height: 30px;
 		margin-bottom: 30px;
+
+		@media (max-width: 992px) {
+			font-size: 15px;
+			line-height: 25px;
+		}
 	}
 
 	&-anchor {
@@ -343,6 +349,11 @@ body {
 		&:hover {
 			color: var(--color-brand);
 			transition: all 0.3s ease-in-out;
+		}
+
+		@media (max-width: 992px) {
+			font-size: 15px;
+			line-height: 25px;
 		}
 	}
 }
@@ -398,21 +409,33 @@ body {
 		max-width: 1287px;
 		padding: 154px 16px 187px;
 
+		@media (max-width: 992px) {
+			padding: 100px 16px 120px;
+		}
+
 		&-head {
 			font-weight: 600;
 			font-size: 50px;
 			line-height: 60px;
 			margin-bottom: 75px;
+			text-align: center;
 		}
 
 		&-items {
-			column-gap: 31px;
+			row-gap: 30px;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
 		}
 	}
 }
 
 .boost-item {
 	flex-direction: column;
+
+	@media (max-width: 1259px) {
+		text-align: center;
+		align-items: center;
+	}
 
 	&-wrap {
 		height: 201px;
@@ -472,6 +495,10 @@ body {
 	margin-bottom: 7px;
 }
 
+.human {
+	align-self: center;
+}
+
 .translation {
 	background-color: #dabc98;
 
@@ -526,6 +553,11 @@ body {
 			font-weight: 600;
 			font-size: 65px;
 			line-height: 75px;
+
+			@media (max-width: 992px) {
+				font-size: 55px;
+				line-height: 65px;
+			}
 		}
 
 		&-paragraph {
@@ -611,6 +643,10 @@ body {
 		&-case {
 			column-gap: 110px;
 			padding-bottom: 95px;
+
+			@media (max-width: 992px) {
+				column-gap: 70px;
+			}
 		}
 	}
 }
