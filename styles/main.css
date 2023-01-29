@@ -125,8 +125,8 @@ body {
 }
 @media (max-width: 768px) {
   .navigation .main-menu {
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    -moz-column-gap: 38px;
+         column-gap: 38px;
   }
 }
 @media (max-width: 380px) {
