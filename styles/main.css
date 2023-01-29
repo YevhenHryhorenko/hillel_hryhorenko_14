@@ -125,14 +125,8 @@ body {
 }
 @media (max-width: 768px) {
   .navigation .main-menu {
-    -moz-column-gap: 28px;
-         column-gap: 28px;
-  }
-}
-@media (max-width: 600px) {
-  .navigation .main-menu {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
 }
 @media (max-width: 380px) {
