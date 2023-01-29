@@ -32,11 +32,11 @@ html {
 	}
 
 	@media (max-width: 768px) {
-		font-size: 8px;
+		font-size: 9px;
 	}
 
 	@media (max-width: 600px) {
-		font-size: 7px;
+		font-size: 8px;
 	}
 }
 
@@ -93,7 +93,7 @@ body {
 	}
 
 	@media (max-width: 992px) {
-		column-gap: 10px;
+		column-gap: 17px;
 	}
 
 	@media (max-width: 600px) {
@@ -122,24 +122,22 @@ body {
 			column-gap: 28px;
 		}
 
+		@media (max-width: 600px) {
+			column-gap: 20px;
+		}
+
+		@media (max-width: 380px) {
+			column-gap: 13px;
+		}
+
 		&-item {
 			font-weight: 400;
-			font-size: 15px;
 			font-size: 1.07rem;
-			line-height: 20px;
+			line-height: 1.428rem;
 
 			&:hover {
 				color: var(--color-brand);
 				transition: all 0.3s ease-in-out;
-			}
-
-			@media (max-width: 992px) {
-				// font-size: 13px;
-				// font-size: 0.93rem;
-			}
-
-			@media (max-width: 600px) {
-				font-size: 1.5rem;
 			}
 		}
 	}
@@ -152,19 +150,16 @@ body {
 		border: 1px solid rgba(0, 0, 0, 0.5);
 		padding: 13px 36px;
 		font-weight: 600;
-		font-size: 16px;
 		font-size: 1.14rem;
 		line-height: 1;
 
 		@media (max-width: 992px) {
 			padding: 10px 10px;
-			font-size: 14px;
-			font-size: 1rem;
 			align-self: center;
 		}
 
 		@media (max-width: 600px) {
-			display: none;
+			padding: 10px 15px;
 		}
 
 		&:hover {
@@ -180,7 +175,6 @@ body {
 		padding: 13px 21px;
 		color: #ffffff;
 		font-weight: 600;
-		font-size: 16px;
 		font-size: 1.14rem;
 		line-height: 1;
 		border: 1px solid transparent;
@@ -194,9 +188,11 @@ body {
 
 		@media (max-width: 992px) {
 			padding: 10px 10px;
-			// font-size: 14px;
-			// font-size: 1rem;
 			align-self: center;
+		}
+
+		@media (max-width: 600px) {
+			padding: 10px 15px;
 		}
 	}
 }
@@ -241,20 +237,9 @@ body {
 
 			&-head {
 				font-weight: 600;
-				font-size: 65px;
 				font-size: 4.64rem;
-				line-height: 70px;
 				line-height: 5rem;
 				margin-bottom: 0.8em;
-
-				@media (max-width: 1200px) {
-					// font-size: 60px;
-				}
-
-				@media (max-width: 992px) {
-					// font-size: 50px;
-					// line-height: 55px;
-				}
 
 				@media (max-width: 768px) {
 					margin-bottom: 0;
@@ -262,21 +247,17 @@ body {
 			}
 
 			&-paragraph {
-				font-size: 25px;
 				font-size: 1.785rem;
-				line-height: 35px;
 				line-height: 2.5rem;
 				margin-bottom: 51px;
 				max-width: 471px;
 
 				@media (max-width: 1200px) {
-					// font-size: 20px;
 					max-width: 450px;
 				}
 
 				@media (max-width: 992px) {
 					max-width: 338px;
-					// font-size: 18px;
 				}
 
 				@media (max-width: 768px) {
@@ -297,7 +278,6 @@ body {
 					color: #fff;
 					padding: 22px 42px;
 					font-weight: 600;
-					font-size: 16px;
 					font-size: 1.14rem;
 					line-height: 1;
 					color: #ffffff;
@@ -312,7 +292,6 @@ body {
 
 					@media (max-width: 992px) {
 						padding: 12px 22px;
-						// font-size: 12px;
 					}
 
 					@media (max-width: 600px) {
@@ -324,7 +303,6 @@ body {
 					padding: 22px 29px;
 					border: 1px solid rgba(0, 0, 0, 0.5);
 					font-weight: 600;
-					font-size: 16px;
 					font-size: 1.14rem;
 					line-height: 1;
 
@@ -337,7 +315,6 @@ body {
 
 					@media (max-width: 992px) {
 						padding: 12px 19px;
-						// font-size: 12px;
 					}
 
 					@media (max-width: 600px) {
@@ -347,9 +324,8 @@ body {
 			}
 
 			&-additional {
-				font-size: 15px;
 				font-size: 1.07rem;
-				line-height: 25px;
+				line-height: 1.785rem;
 			}
 		}
 	}
@@ -368,9 +344,7 @@ body {
 
 		&-head {
 			font-weight: 600;
-			font-size: 50px;
 			font-size: 3.57rem;
-			line-height: 60px;
 			line-height: 4.275rem;
 			margin-bottom: 70px;
 		}
@@ -451,7 +425,6 @@ body {
 }
 
 .benefits-txt {
-	// max-width: 39.5%;
 
 	@media (max-width: 600px) {
 		display: flex;
@@ -462,21 +435,10 @@ body {
 
 	&-head {
 		font-weight: 600;
-		font-size: 50px;
 		font-size: 3.57rem;
-		line-height: 60px;
 		line-height: 4.275rem;
 		margin-bottom: 30px;
 		max-width: 83%;
-
-		@media (max-width: 1200px) {
-			// font-size: 45px;
-		}
-
-		@media (max-width: 992px) {
-			// font-size: 29px;
-			// line-height: 45px;
-		}
 
 		@media (max-width: 600px) {
 			margin: 0;
@@ -484,17 +446,10 @@ body {
 	}
 
 	&-parag {
-		font-size: 20px;
 		font-size: 1.428rem;
-		line-height: 30px;
 		line-height: 2.142rem;
 		margin-bottom: 30px;
 		max-width: 83%;
-
-		@media (max-width: 992px) {
-			// font-size: 15px;
-			// line-height: 25px;
-		}
 
 		@media (max-width: 600px) {
 			margin: 0;
@@ -503,19 +458,12 @@ body {
 
 	&-anchor {
 		font-weight: 600;
-		font-size: 20px;
 		font-size: 1.248rem;
-		line-height: 30px;
 		line-height: 2.142rem;
 
 		&:hover {
 			color: var(--color-brand);
 			transition: all 0.3s ease-in-out;
-		}
-
-		@media (max-width: 992px) {
-			// font-size: 15px;
-			// line-height: 25px;
 		}
 	}
 }
@@ -533,9 +481,7 @@ body {
 
 		&-head {
 			font-weight: 600;
-			font-size: 50px;
 			font-size: 3.57rem;
-			line-height: 60px;
 			line-height: 4.275rem;
 			margin-bottom: 79px;
 		}
@@ -562,16 +508,12 @@ body {
 
 	&-heading {
 		font-weight: 600;
-		font-size: 25px;
 		font-size: 1.785rem;
-		line-height: 35px;
 		line-height: 2.5rem;
 	}
 
 	&-paragraph {
-		font-size: 18px;
 		font-size: 1.285rem;
-		line-height: 25px;
 		line-height: 1.785rem;
 		width: 24.1rem;
 	}
@@ -594,9 +536,7 @@ body {
 
 		&-head {
 			font-weight: 600;
-			font-size: 50px;
 			font-size: 3.57rem;
-			line-height: 60px;
 			line-height: 4.275rem;
 			margin-bottom: 75px;
 			text-align: center;
@@ -637,9 +577,7 @@ body {
 
 	&-heading {
 		font-weight: 600;
-		font-size: 30px;
 		font-size: 2.142rem;
-		line-height: 40px;
 		line-height: 2.857rem;
 		margin-bottom: 34px;
 
@@ -649,18 +587,14 @@ body {
 	}
 
 	&-paragraph {
-		font-size: 20px;
 		font-size: 1.428rem;
-		line-height: 30px;
 		line-height: 2.142rem;
 		margin-bottom: 25px;
 		width: 35rem;
 	}
 
 	&-link {
-		font-size: 20px;
 		font-size: 1.428rem;
-		line-height: 30px;
 		line-height: 2.142rem;
 	}
 }
@@ -695,9 +629,7 @@ body {
 }
 
 .quote-paragraph {
-	font-size: 30px;
 	font-size: 2.142rem;
-	line-height: 40px;
 	line-height: 2.857rem;
 	margin-bottom: 23px;
 
@@ -707,9 +639,7 @@ body {
 }
 
 .quote-caption {
-	font-size: 15px;
 	font-size: 1.07rem;
-	line-height: 25px;
 	line-height: 1.785rem;
 	margin-bottom: 7px;
 }
@@ -751,9 +681,7 @@ body {
 
 			.translation-heading {
 				font-weight: 600;
-				font-size: 35px;
 				font-size: 2.5rem;
-				line-height: 50px;
 				line-height: 3.57rem;
 				padding: 10px;
 			}
@@ -783,6 +711,10 @@ body {
 				border-top: 1px solid black;
 				padding: 35px 0 0 0;
 				gap: 0;
+			}
+
+			@media (max-width: 400px) {
+				justify-content: space-between;
 			}
 
 			img {
@@ -815,21 +747,12 @@ body {
 
 		&-head {
 			font-weight: 600;
-			font-size: 65px;
 			font-size: 4.64rem;
-			line-height: 75px;
 			line-height: 7.357rem;
-
-			@media (max-width: 992px) {
-				// font-size: 55px;
-				// line-height: 65px;
-			}
 		}
 
 		&-paragraph {
-			font-size: 25px;
 			font-size: 1.785rem;
-			line-height: 30px;
 			line-height: 2.143rem;
 			margin-bottom: 25px;
 			max-width: 43%;
@@ -843,7 +766,6 @@ body {
 
 		&-anchor {
 			font-weight: 600;
-			font-size: 16px;
 			font-size: 1.143rem;
 			line-height: 1;
 			color: #ffffff;
@@ -884,17 +806,13 @@ body {
 
 		&-head {
 			font-weight: 600;
-			font-size: 65px;
 			font-size: 4.642rem;
-			line-height: 75px;
 			line-height: 5.257rem;
 			margin-bottom: 29px;
 		}
 
 		&-paragraph {
-			font-size: 20px;
 			font-size: 1.428rem;
-			line-height: 30px;
 			line-height: 2.143rem;
 			margin-bottom: 54px;
 
@@ -905,7 +823,6 @@ body {
 
 		&-anchor {
 			font-weight: 600;
-			font-size: 17px;
 			font-size: 1.214rem;
 			line-height: 1;
 			padding: 27px 40px;
@@ -984,9 +901,7 @@ body {
 
 		.footer-paragraph {
 			max-width: 301px;
-			font-size: 12px;
 			font-size: 0.857rem;
-			line-height: 15px;
 			line-height: 1.07rem;
 		}
 	}
@@ -1021,9 +936,7 @@ body {
 
 .nav-item-head {
 	font-weight: 600;
-	font-size: 20px;
 	font-size: 1.428rem;
-	line-height: 25px;
 	line-height: 1.785rem;
 	margin-bottom: 21px;
 
@@ -1033,9 +946,7 @@ body {
 }
 
 .nav-flex-item {
-	font-size: 15px;
 	font-size: 1.07rem;
-	line-height: 15px;
 	line-height: 1.07rem;
 	display: inline-block;
 	margin-bottom: 15px;
@@ -1061,15 +972,17 @@ body {
 
 	&-head {
 		font-weight: 600;
-		font-size: 40px;
 		font-size: 2.857rem;
-		line-height: 50px;
 		line-height: 3.57rem;
 		margin-bottom: 28px;
 	}
 
 	&-cyclists {
 		margin-bottom: 31px;
+
+		@media (max-width: 600px) {
+			margin-bottom: 20px;
+		}
 	}
 
 	&-logo {
@@ -1077,9 +990,7 @@ body {
 	}
 
 	&-paragraph {
-		font-size: 20px;
 		font-size: 1.428rem;
-		line-height: 30px;
 		line-height: 2.143rem;
 		margin-bottom: 15px;
 		width: 21rem;
@@ -1087,9 +998,7 @@ body {
 
 	&-anchor {
 		font-weight: 600;
-		font-size: 20px;
 		font-size: 1.428rem;
-		line-height: 30px;
 		line-height: 1.143rem;
 
 		&:hover {
